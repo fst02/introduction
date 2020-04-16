@@ -1,0 +1,151 @@
+body {
+    color: black;
+    margin: 0;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+
+ul.navbar-nav {
+    justify-content: center;
+}
+a.navbar-brand > img {
+    height: 70px;
+}
+
+header {
+    background-image: url("bg-1.jpg");
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header > h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid white;
+    margin: 20px;
+    display: inline-block;
+}
+
+section {
+    position: static;
+}
+
+article {
+    overflow: hidden;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover, a:active  {
+    background-color: lightgrey;
+}
+
+a.anchor {
+    position: relative;
+    top: -100px;
+}
+
+article.person img {
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+article#dani h1 {
+    color: blue;
+}
+
+article#niki h1 {
+    color: rgb(128, 52, 128);
+}
+
+article#olga h1 {
+    color: black;
+}
+
+article#peter h1 {
+    color: green;
+}
+
+article#olga h1 {
+    color: black;
+}
+
+article#bendeguz h1 {
+    color: brown;
+}
+
+article#ada h1 {
+    color: green;
+}
+
+article#ricsi h1 {
+    color: darkgreen;
+}
+
+article.person {
+    margin: 15px 0;
+}
+
+article.person > div {
+    height: 100%;
+    width: 100%;
+    background-color: lightgray;
+}
+
+article.person h1 , article.person p {
+    padding: 0 20px;
+    line-height: 150%;
+}
+
+article.person h1 {
+    font-size: 28px;
+    margin: 0px;
+}
+
+article.project {
+    margin: 15px 0;
+}
+
+article.project > div {
+    background-color: lightgray;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+article.project  h1 {
+    font-size: 28px;
+    color: rgb(53, 52, 52);
+    text-align: center;
+}
+
+article.project  img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    object-position: center center;
+}
+
+article.project  p {
+    line-height: 150%;
+}

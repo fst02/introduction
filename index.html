@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script language="javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script language="javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>Hello World</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="https://braininghub.hu/">
+            <img src="images/BH_logo.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="#kezdooldal">Kezdőoldal <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#rolunk">Rólunk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#projektjeink">Projektjeink</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <a id="kezdooldal" class="anchor"></a>
+    <header>
+        <h1>
+            Fullstack Webfejlesztő Csapat
+        </h1>
+        <h2>
+            BrainingHub Webfejlesztő Képzés
+        </h2>
+    </header>
+    <div class="container">
+        <section class="row">
+            <a id="rolunk" class="anchor"></a>
+            <article class="person col-lg-4 col-md-6 col-sm-12" id="dani">
+                <div>
+                    <img src="images/dani.png">
+                    <h1>Dani</h1>
+                    <p>Vendégünk voltál s mi a tieid,<br>
+                        testi vendégek lelki tulvilágban<br>
+                        (másféle nincs!) s oly ezerajku vágyban,<br>
+                        mely a halálnak bontja rácsait<br>
+                        s mindannak, ami időben lakik,<br>
+                        saját magunknak; mert ahogy mi hárman<br>
+                        együtt voltunk, egy gyönyörré kuszáltan<br>
+                        együtt, noha csak pillanatokig:<br>
+                        az nem velem történt és nem veled<br>
+                        s nem azzal, kit, mint egykor tégedet,<br>
+                        ugy szeretek, te Csontig-Vetkezett:<br>
+                        öröklétnek hozta az izeit<br>
+                        s a mindenségnek, az, hogy kicsit<br>
+                        vendégünk voltál s mi a tieid.</p>
+                </div>
+            </article>
+            <article id="niki" class="person col-lg-4 col-md-6 col-sm-12">
+                <div>
+                    <img src="images/niki.jpg">
+                    <h1>Niki</h1>
+                    <p>Szeretem a kutyám és a napsütést. Valószínűleg túl sok sorozatot nézek.</p>
+                </div>
+            </article>
+            <article id="peter" class="person col-lg-4 col-md-6 col-sm-12">
+                <div>
+                    <img src="images/peter.jpg">
+                    <h1>Péter</h1>
+                    <p>Szeretek programozni! Kitűnő programozó leszek a tanulás rögös útjának végén.</p>
+                </div>
+            </article>
+            <article id="olga" class="person col-lg-4 col-md-6 col-sm-12">
+                <div>
+                    <img src="images/olga.jpeg">
+                    <h1>Olga</h1>
+                    <p>Future freelance full stack developer</p>
+                </div>
+            </article>
+            <article id="bendeguz" class="person col-lg-4 col-md-6 col-sm-12">
+                <div>
+                    <img src="images/bendeguz.jpg">
+                    <h1>Bendegúz</h1>
+                    <p>Szombathelyről érkezett, 21 éves, ambíciózus,<br>
+                        most már gazdasági informatikus srác vagyok aki imádja a zenét, az informatikát, a programozást és
+                        ezekkel foglalkozni.</p>
+                </div>
+            </article>
+            <article id="ada" class="person col-lg-4 col-md-6 col-sm-12">
+                <div>
+                    <img src="images/ada.jpg">
+                    <h1>Ada</h1>
+                    <p>Szeretem a tavaszt.</p>
+                </div>
+            </article>
+            <article id="ricsi" class="person col-lg-4 col-md-6 col-sm-12">
+                <div>
+                    <img src="images/ricsi.jpg">
+                    <h1>Ricsi</h1>
+                    <p>Ollah! world !! como estes?<br>
+                        kár hogy a régi jó dolgokból nem maradt semmi.</p>
+                </div>
+            </article>
+        </section>
+        <section class="row">
+            <a id="projektjeink" class="anchor"></a>
+            <article class="project col-lg-6 col-md-12" id="hangman">
+                <div>
+                    <img src="images/hangman.jpg">
+                    <h1>Hangman</h1>
+                    <p>
+                        A kitalálandó szót a szóban szereplő betűk számával megegyező számú és elrendezésű vízszintes vonal
+                        reprezentálja. A
+                        találgató játékos javasol egy betűt, mely ha szerepel a kitalálandó szóban, a betű helyének
+                        megfelelő
+                        vonalakra ráírásra
+                        kerül. Amennyiben a betű nem szerepel a kitalálandó szóban, úgy egy stilizált akasztófa egy része
+                        kerül
+                        lerajzolásra.
+                        A játék akkor ér véget, ha az akasztófa (és a benne lévő emberalak) teljes egészében megformálásra
+                        kerül, vagy kérdező
+                        az összes betűt kitalálja. A játék végét jelentő stilizált ábra megjelenésében eltérő lehet: egyes
+                        esetekben az
+                        akasztófa áll 7-10 vagy több vonalból, valamint az emberalak is hasonló mennyiségű vonalból.
+                        Nehezítésnek számít, ha
+                        ennél kevesebb elemből állnak a részek, könnyítésnek, ha több elemből. Az is könnyítés, ha a
+                        feladvány
+                        szófaját vagy
+                        témáját tekintve a feladó segítséget ad. Egyes esetekben az akasztófa mint szimbólum alkalmazása a
+                        társadalmi megítélése
+                        miatt nem helyénvaló, így helyettesíteni szokták más ábrákkal, de a játék lényegét tekintve ugyanaz
+                        marad.
+                    </p>
+                    <a href="https://hu.wikipedia.org/wiki/Akaszt%C3%B3fa_(j%C3%A1t%C3%A9k)"
+                    target="_blank"
+                    class="btn btn-outline-secondary"
+                    >Bővebben</a>
+                </div>
+            </article>
+            <article class="project col-lg-6 col-md-12" id="tetris">
+                <div>
+                    <img src="images/tetris.jpg">
+                    <h1>Tetris</h1>
+                    <p>
+                        A Tetris (oroszul: Тетрис) egy ügyességi és logikai videójáték, melynek első változatát az orosz
+                        Alekszej Leonyidovics
+                        Pazsitnov tervezte meg és készítette el az Elektronika 60 nevű számítógépre, míg az Orosz Tudományos
+                        Akadémia
+                        munkatársaként dolgozott Moszkvában. A játék végül 1984. június 6-án jelent meg a Szovjetunióban. A
+                        játék neve a
+                        görög tetra kifejezés (minden egyes elem négy részből áll) és Pazsitnov kedvenc sportja, a tenisz
+                        összevonásából ered. A
+                        Tetris volt az első olyan játékszoftver, melyet a Szovjetunióból az Amerikai Egyesült Államokba
+                        exportáltak, ahol a
+                        Spectrum Holobyte kiadta IBM PC és Commodore 64 platformokra a játékot. Bár számos logikai játék
+                        alkalmazta őket
+                        korábban is, a játékban szereplő négy elemből álló poliominók, azaz tetrominók a játék hatására
+                        váltak
+                        széles körben
+                        ismertté. A poliominó elnevezést 1953-ban Solomon Wolf Golomb amerikai matematikus használta
+                        először, de
+                        ezen
+                        alakzatokról már az ókorból is vannak utalások.
+                    </p>
+                    <a href="https://hu.wikipedia.org/wiki/Tetris"
+                        target="_blank"
+                        class="btn btn-outline-secondary"
+                        >Bővebben</a>
+                </div>
+            </article>
+            <article class="project col-lg-6 col-md-12" id="supermario">
+                <div>
+                    <img src="images/mario.jpg">
+                    <h1>Supermario</h1>
+                    <p>
+                        A Super Mario Bros. (スーパーマリオブラザーズ; Hepburn: Sūpā Mario Burazāzu?, ’Szúpá Mario Burazázu’), röviden
+                        csak
+                        SMB, egy
+                        videójáték, melyet a Nintendo adott ki 1985-ben, a NES konzolra. A Super Mario Bros. a videójátékok
+                        egyik klasszikusának
+                        számít, aminek hatása máig is érződik és melynek azóta számos folytatása látott napvilágot.
+                        Mario, az olasz származású brooklyni vízvezeték-szerelő egy csövön keresztül jutott el a varázslatos
+                        Csiperke
+                        Királyságba (eredetileg Mushroom Kingdom). Mario alacsony, pocakos és bozontos, fekete bajsza van.
+                        Kék
+                        farmernadrágot,
+                        piros pulcsit, illetve sapkát visel.<br>
+                        Mario, az olasz származású brooklyni vízvezeték-szerelő egy csövön keresztül jutott el a varázslatos
+                        Csiperke
+                        Királyságba (eredetileg Mushroom Kingdom). Mario alacsony, pocakos és bozontos, fekete bajsza van.
+                        Kék
+                        farmernadrágot,
+                        piros pulcsit, illetve sapkát visel. Mario öccse, Luigi magas, sovány, viszont szintén bajuszos.
+                        Ruhája
+                        zöld-lila, zöld
+                        sapkáján pedig (nevéhez illően) egy "L" betű található. Luigi félénk természetű, de magasabbra tud
+                        ugrani, mint Mario.
+                    </p>
+                    <a href="https://hu.wikipedia.org/wiki/Super_Mario_Bros."
+                        target="_blank"
+                        class="btn btn-outline-secondary"
+                        >Bővebben</a>
+                </div>
+            </article>
+            <article class="project col-lg-6 col-md-12" id="leaderboard">
+                <div>
+                    <img src="images/leaderboard.png">
+                    <h1>Leaderboard</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor pretium felis, a accumsan
+                        enim
+                        vehicula vel.
+                        Integer nec pellentesque arcu, et venenatis elit. Ut ultricies ex ac maximus lacinia. Cras tempor in
+                        erat vel
+                        pellentesque. Proin tincidunt, massa sit amet consequat blandit, enim elit aliquam turpis, vitae
+                        pulvinar ex urna nec
+                        sapien. Aenean elementum blandit augue, nec lacinia urna porttitor a. Ut maximus, mauris sed
+                        faucibus
+                        sagittis, tellus
+                        ligula dapibus orci, sit amet egestas neque est sed turpis. Vestibulum porta purus erat, ac varius
+                        ipsum
+                        cursus quis.
+                        Curabitur non fringilla eros, quis pulvinar diam. Pellentesque tempor est odio, sed pulvinar urna
+                        volutpat ut. Phasellus
+                        a elit id lorem hendrerit congue. Phasellus mollis semper feugiat. Etiam pulvinar vestibulum dui a
+                        semper. Donec dui
+                        tellus, egestas nec varius in, dictum ut dolor.
+                    </p>
+                </div>
+            </article>
+        </section>    
+    </div>
+    
+</body>
+
+</html>
