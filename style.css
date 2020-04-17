@@ -1,3 +1,9 @@
+:root{
+    --nav-bg-color: rgb(153, 153, 153);
+    --article-bg-color: lightgray;
+    --li-bg-color: rgb(105, 103, 103);
+}
+
 body {
     color: black;
     margin: 0;
@@ -5,7 +11,7 @@ body {
 }
 
 nav, div#toTop {
-    background-color: rgb(153, 153, 153);
+    background-color: var(--nav-bg-color);
 }
 
 div#toTop {
@@ -22,24 +28,11 @@ a.navbar-brand > img {
 
 li.nav-item > a.active {
     background-clip: border-box;
-    background-color: rgb(105, 103, 103)!important;
+    background-color: var(--li-bg-color)!important;
 }
 
-header {
-    background-image: url("bg-1.jpg");
-    background-size: cover;
-    height: 600px;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-header > h1 {
-    text-transform: uppercase;
-    text-shadow: 2px 2px black;
+li:hover {
+    background-color: var(--li-bg-color);
 }
 
 ul {
@@ -61,6 +54,28 @@ a.nav-link {
     text-align: center;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-image: url("bg-1.jpg");
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header > h1 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+}
+
 section {
     position: static;
     justify-content: center;
@@ -68,15 +83,6 @@ section {
 
 article {
     overflow: hidden;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-li:hover, a:active  {
-    background-color: rgb(105, 103, 103);
 }
 
 section#rolunk, section#projektjeink {
@@ -133,7 +139,7 @@ article.person {
 article.person > div {
     height: 100%;
     width: 100%;
-    background-color: lightgray;
+    background-color: var(--article-bg-color);
 }
 
 article.person h1 , article.person p {
@@ -151,7 +157,7 @@ article.project {
 }
 
 article.project > div {
-    background-color: lightgray;
+    background-color: var(--article-bg-color);
     height: 100%;
     padding: 10px 20px;
 }
@@ -176,6 +182,6 @@ article.project  p {
 footer {
     text-align: center;
     padding: 35px 0;
-    background-color: rgb(153, 153, 153);
+    background-color: var(--nav-bg-color);
     color: white;
 }
