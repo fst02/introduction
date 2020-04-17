@@ -15,6 +15,8 @@ a.navbar-brand > img {
     height: 70px;
 }
 
+
+
 li.nav-item > a.active {
     background-clip: border-box;
     background-color: rgb(105, 103, 103)!important;
@@ -75,6 +77,10 @@ li:hover, a:active  {
 
 section#rolunk, section#projektjeink {
     position: relative;
+}
+
+div.parallax {
+    height: 600px;
 }
 
 article.person img {
