@@ -8,14 +8,17 @@ nav, div#toTop {
     background-color: rgb(153, 153, 153);
 }
 
+div#toTop {
+    border: solid 2px white;
+}
+
 ul.navbar-nav {
     justify-content: center;
 }
+
 a.navbar-brand > img {
     height: 70px;
 }
-
-
 
 li.nav-item > a.active {
     background-clip: border-box;
@@ -60,6 +63,7 @@ a.nav-link {
 
 section {
     position: static;
+    justify-content: center;
 }
 
 article {
@@ -167,4 +171,11 @@ article.project  img {
 
 article.project  p {
     line-height: 150%;
+}
+
+footer {
+    text-align: center;
+    padding: 35px 0;
+    background-color: rgb(153, 153, 153);
+    color: white;
 }
