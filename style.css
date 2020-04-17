@@ -11,6 +11,11 @@ a.navbar-brand > img {
     height: 70px;
 }
 
+li.nav-item > a.active {
+    background-clip: border-box;
+    background-color: rgb(105, 103, 103)!important;
+}
+
 header {
     background-image: url("bg-1.jpg");
     background-size: cover;
@@ -36,10 +41,15 @@ ul {
 }
 
 li {
-    padding: 10px;
     border: 1px solid white;
     margin: 20px;
     display: inline-block;
+}
+
+a.nav-link {
+    padding: 15px;
+    width: 150px;
+    text-align: center;
 }
 
 section {
@@ -56,23 +66,22 @@ a {
 }
 
 li:hover, a:active  {
-    background-color: lightgrey;
+    background-color: rgb(105, 103, 103);
 }
 
-a.anchor {
+section#rolunk, section#projektjeink {
     position: relative;
-    top: -100px;
 }
 
 article.person img {
     width: 100%;
-    height: 40%;
+    height: 250px;
     object-fit: cover;
     object-position: center top;
 }
 
 article#dani h1 {
-    color: blue;
+    color:blue;
 }
 
 article#niki h1 {
