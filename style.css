@@ -4,6 +4,10 @@ body {
     font-family: "Open Sans",Helvetica,Arial,sans-serif;
 }
 
+nav, div#toTop {
+    background-color: rgb(153, 153, 153);
+}
+
 ul.navbar-nav {
     justify-content: center;
 }
